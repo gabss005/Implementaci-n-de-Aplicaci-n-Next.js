@@ -1,0 +1,14 @@
+/* Tailwind v4 se importa con una sola línea */
+@import "tailwindcss";
+
+/* Tema rosita y blanco con color-scheme claro para controles nativos. */
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #ffffff;
+  color: #831843; /* pink-900 */
+  /* La variable la define next/font en layout.tsx; system-ui es el respaldo */
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
